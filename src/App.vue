@@ -3,7 +3,7 @@
     <v-container>
       <v-row no-gutters>
         <v-col>
-          <div class="display-1 pl-3 pt-3 pb-3 port-title">
+          <div class="display-4 pl-3 pt-3 pb-3 port-title">
             マイポートフォリオ
           </div>
         </v-col>
@@ -15,7 +15,7 @@
               <v-img :src="require('@/icon_image.png')" max-width="250"></v-img>
             </v-row>
             <v-row justify="center">
-              <p class="display-1 mt-4">XX_ここに名前を入力します</p>
+              <p class="display-4 mt-4">D & K</p>
             </v-row>
             <v-row>
               <v-col class="col-2"></v-col>
@@ -71,7 +71,7 @@
                     color="#cfe2f3"
                   >
                     <p class="title">自己紹介</p>
-                    <p>XX_ここに自己紹介文を入力します</p>
+                    <p>バックエンドエンジニアです！</p>
                   </v-card>
                 </v-col>
               </v-row>
@@ -89,25 +89,19 @@
                         <v-list-item-icon>
                           <v-icon color="#43a047">mdi-checkbox-marked</v-icon>
                         </v-list-item-icon>
-                        <v-list-item-content>
-                          XX_ここに興味のある技術を入力します
-                        </v-list-item-content>
+                        <v-list-item-content> React </v-list-item-content>
                       </v-list-item>
                       <v-list-item class="my-n4">
                         <v-list-item-icon>
                           <v-icon color="#43a047">mdi-checkbox-marked</v-icon>
                         </v-list-item-icon>
-                        <v-list-item-content>
-                          XX_ここに興味のある技術を入力します
-                        </v-list-item-content>
+                        <v-list-item-content> Swift </v-list-item-content>
                       </v-list-item>
                       <v-list-item>
                         <v-list-item-icon>
                           <v-icon color="#43a047">mdi-checkbox-marked</v-icon>
                         </v-list-item-icon>
-                        <v-list-item-content>
-                          XX_ここに興味のある技術を入力します
-                        </v-list-item-content>
+                        <v-list-item-content> Kubenetes </v-list-item-content>
                       </v-list-item>
                     </v-list>
                   </v-card>
@@ -122,7 +116,7 @@
                     color="#f5e4bf"
                   >
                     <p class="title">好きな言葉</p>
-                    <p>XX_ここに好きな言葉を入力します</p>
+                    <p>求めよ、さらば与えられん</p>
                   </v-card>
                 </v-col>
               </v-row>
